@@ -1,0 +1,55 @@
+.branding-label {
+    font-size: 1.55rem;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 1rem
+}
+
+.login-info-label {
+    font-size: 1.00rem;
+    font-weight: 400;
+    color: white;
+}
+
+.login-information {
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    height: 90%;
+    background-color: rgba(25, 125, 225, 0.7);
+    padding: 50px 20px 20px 20px;
+    color: #ecf2f8;
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem;
+    box-sizing: border-box;
+    --lumo-space-m: 0.1rem;
+}
+
+.login-label {
+    font-size: 1.50rem;
+    font-weight: 500;
+    color: #1676f3;
+}
+
+.login-textfields {
+    --lumo-body-text-color: black;
+    --lumo-contrast-10pct: lightgray;
+    --lumo-secondary-text-color: black;
+}
+
+.login-animation {
+    animation: valo-animate-in-fade 1s 1s backwards;
+}
+
+@keyframes valo-animate-in-fade {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+	         

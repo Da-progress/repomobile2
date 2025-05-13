@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+
+	<event-module>
+		<new-event-price>101</new-event-price>
+		<new-event-currency>CHF</new-event-currency>
+	</event-module>
+
+</settings>

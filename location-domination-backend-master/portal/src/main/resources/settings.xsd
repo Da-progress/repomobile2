@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0">
+
+	<xsd:element name="settings">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="event-module" type="event-module" maxOccurs="1" minOccurs="1"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:complexType name="event-module">
+		<xsd:sequence>
+			<xsd:element name="new-event-price" type="xsd:double" maxOccurs="1" minOccurs="1"/>
+			<xsd:element name="new-event-currency" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+</xsd:schema>
